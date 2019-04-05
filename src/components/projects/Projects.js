@@ -24,8 +24,8 @@ export default class Projects extends Component {
     return (
       <div className='header-home animated spacing1'>
 
-          <h1 className='title'>Projects</h1>
-          <h2 className='description'>Projects include UX design, game design, rapid prototyping and developing.</h2>
+          <h2 className='title'>Projects</h2>
+          <hr/>
           <div className='project-cards'>
             {this.getProjects()}
           </div>

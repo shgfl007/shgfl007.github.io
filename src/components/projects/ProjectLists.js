@@ -6,6 +6,7 @@ import FairTrade from './details/fairtrade'
 import bkaleg from './details/breakaleg'
 import foguang from './details/foguang'
 
+import Geogram from './details/geogram'
 
 export default class ProjectList extends Component {
   render(){
@@ -17,6 +18,7 @@ export default class ProjectList extends Component {
     <Route path='/projects/fairtrade' component={FairTrade} />
     <Route path='/projects/break-a-leg' component={bkaleg} />
     <Route path='/projects/foguang-temple' component={foguang} />
+    <Route path='/projects/geogram' component={Geogram} />
     </Switch>
     </main>)
   }

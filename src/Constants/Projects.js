@@ -16,7 +16,11 @@ export const ProjectList = [
 
   {title: 'Paper Prototype for Quick Play Test', category:'Case Study, UX Design, Game Design, Paper Prototyping', app:'Break A Leg',
     caption:'A party game that brings fun to all the players',
-    img: gameBKG, link:'/break-a-leg'}
+    img: gameBKG, link:'/break-a-leg'},
+
+    {title: 'Live the Moment and Leave the Moment There', category:'Product Design', app:'Geogram',
+      caption:'Live the Moment and Leave the Moment There',
+      img: foguangBKG, link:'/geogram'}
 
 
 ]
