@@ -1,4 +1,4 @@
-import {brioBKG, ftBKG, gameBKG, foguangBKG} from './Image'
+import {brioBKG, ftBKG, gameBKG, foguangBKG,geocover} from './Image'
 export const ProjectList = [
   {title: 'Placement Indicator', category:'Case Study, UX Design', app:'BRIOVR',
     caption:'Solve the problem of placing objects in 3D space using 2D editor',
@@ -18,9 +18,9 @@ export const ProjectList = [
     caption:'A party game that brings fun to all the players',
     img: gameBKG, link:'/break-a-leg'},
 
-    {title: 'Live the Moment and Leave the Moment There', category:'Product Design', app:'Geogram',
+    {title: 'Live the Moment and Leave the Moment There', category:'Product Design, Other', app:'Geogram',
       caption:'Live the Moment and Leave the Moment There',
-      img: foguangBKG, link:'/geogram'}
+      img: geocover, link:'/geogram'}
 
 
 ]

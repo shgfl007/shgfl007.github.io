@@ -1,7 +1,7 @@
 .project-cards{
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
+  margin: 80px auto;
   justify-content: space-between;
   h1,h2,h3,p{
     text-align: center;
@@ -17,6 +17,7 @@
   height: 287px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   margin: 8px 0;
 
 

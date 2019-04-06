@@ -31,6 +31,17 @@ export default class Projects extends Component {
   )
   }
 
+  getOther(){
+    return ProjectList.reduce((cs,project)=>{
+      if(project.category.includes('Other')){
+        cs.push(project)
+      }
+
+      return cs
+  },[]
+  )
+  }
+
   render() {
     const profile = '../assets/img/profile_new.png';
     return (

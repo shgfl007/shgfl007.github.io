@@ -33,6 +33,11 @@ import fgaudio from '../assets/projects/foguang/audioG.jpg'
 import fgflow2 from '../assets/projects/foguang/ROUTE.png'
 import fgui from '../assets/projects/foguang/demo_ui_2.mp4'
 
+import geoS from '../assets/projects/geogram/survey.png'
+import geoflow from '../assets/projects/geogram/flow.png'
+import geomock from '../assets/projects/geogram/mockup.png'
+import geocover from '../assets/projects/geogram/cover.png'
+
 import profile from '../assets/img/profile_new.png'
 import resume from '../assets/resume/DanningLu2019.pdf'
 
@@ -55,5 +60,6 @@ export {
   gameBKG,
   foguangBKG,
   fgflow,
+  geoS,geoflow,geomock,geocover,
   profile, resume
 }
