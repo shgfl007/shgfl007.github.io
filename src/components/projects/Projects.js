@@ -58,10 +58,6 @@ export default class Projects extends Component {
             <div className='project-cards'>
               {this.getProjects(this.getOther())}
             </div>
-
-          <h2 className='title'>Passion Projects & Learning</h2>
-
-
       </div>
     );
   }

@@ -134,6 +134,17 @@
 .project-image{
   max-width: 800px;
   margin:auto;
+
+  .slide-dots {
+    bottom: -16px; 
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 24px;
+    position: relative;
+}
 }
 
 .split-section{
@@ -213,4 +224,7 @@ li{
   @include mediumS{
     height: 120px;
   }
+
+  //--------- slider dot ----------------------------------------------
+
 }

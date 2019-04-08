@@ -38,6 +38,21 @@ import geoflow from '../assets/projects/geogram/flow.png'
 import geomock from '../assets/projects/geogram/mockup.png'
 import geocover from '../assets/projects/geogram/cover.png'
 
+import gamePrep from '../assets/projects/game/prep.png'
+import gamerule from '../assets/projects/game/Doc.png'
+import gameRA1 from '../assets/projects/game/ruleA1.jpg'
+import gameRA2 from '../assets/projects/game/ruleA2.jpg'
+import gameRA3 from '../assets/projects/game/ruleA3.jpg'
+import gameRA4 from '../assets/projects/game/ruleA4.jpg'
+import gameRA5 from '../assets/projects/game/ruleA5.jpg'
+import gameRB1 from '../assets/projects/game/ruleB1.jpg'
+import gameRB2 from '../assets/projects/game/ruleB2.jpg'
+import gameRB3 from '../assets/projects/game/ruleB3.jpg'
+import gameRB4 from '../assets/projects/game/ruleB4.jpg'
+import gameRB5 from '../assets/projects/game/ruleB5.jpg'
+import gameRB6 from '../assets/projects/game/ruleB6.jpg'
+import gameRB7 from '../assets/projects/game/ruleB7.jpg'
+
 import profile from '../assets/img/profile_new.png'
 import resume from '../assets/resume/DanningLu2019.pdf'
 
@@ -61,5 +76,7 @@ export {
   foguangBKG,
   fgflow,
   geoS,geoflow,geomock,geocover,
+  gamePrep,gamerule,gameRA1, gameRA2,gameRA3,gameRA4,gameRA5,
+  gameRB1,gameRB2,gameRB3,gameRB4,gameRB5,gameRB6,gameRB7,
   profile, resume
 }

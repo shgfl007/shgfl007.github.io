@@ -6,6 +6,8 @@ import { HashRouter } from 'react-router-dom'
 import Header from './components/header/header'
 import Nav from './components/navbar/nav'
 import Main from './components/Main'
+import Footer from './components/footer/footer'
+
 
 class App extends Component {
   render() {
@@ -13,6 +15,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Main />
+        <Footer />
       </div>
     );
   }
