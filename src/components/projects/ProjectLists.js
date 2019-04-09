@@ -5,8 +5,9 @@ import BRIOVR from './details/Briovr'
 import FairTrade from './details/fairtrade'
 import bkaleg from './details/breakaleg'
 import foguang from './details/foguang'
-
 import Geogram from './details/geogram'
+import Animation from './details/animation'
+
 
 export default class ProjectList extends Component {
   render(){
@@ -18,7 +19,7 @@ export default class ProjectList extends Component {
     <Route path='/projects/fairtrade' component={FairTrade} />
     <Route path='/projects/break-a-leg' component={bkaleg} />
     <Route path='/projects/foguang-temple' component={foguang} />
-    <Route path='/projects/geogram' component={Geogram} />
+    <Route path='/projects/animation' component={Animation} />
     </Switch>
     </main>)
   }

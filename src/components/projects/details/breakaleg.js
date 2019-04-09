@@ -11,7 +11,7 @@ const takeaways = [
   {title:'Paper Prototype Still Works!', content:'We are pretty used to digital prototypes. It\'s easy and fast to create for apps. But for games, digital prototype might require development work that needs time. Paper prototype comes in at this time. It\'s easier and faster to quickly test out some assumptions. '}
 ]
 
-export default class FairTrade extends Component {
+export default class BreakALeg extends Component {
 
   render() {
     return (

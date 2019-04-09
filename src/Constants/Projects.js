@@ -18,9 +18,13 @@ export const ProjectList = [
     caption:'A party game that brings fun to all the players',
     img: gameBKG, link:'/break-a-leg'},
 
-    {title: 'Live the Moment and Leave the Moment There', category:'Product Design, Other', app:'Geogram',
+  {title: 'Live the Moment and Leave the Moment There', category:'Product Design, Other', app:'Geogram',
       caption:'Live the Moment and Leave the Moment There',
-      img: geocover, link:'/geogram'}
+      img: geocover, link:'/geogram'},
+
+  {title: 'Add Characteristics to Elements', category:'Interaction Design, Animation, Other', app:'BRIOVR',
+        caption:'A bit of animation brings delight and life to apps',
+        img: brioBKG, link:'/animation'}
 
 
 ]
