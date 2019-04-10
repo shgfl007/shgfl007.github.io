@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "ae3b7df1a9e222743dd9d56380b1495c",
-    "url": "/static/media/designP.ae3b7df1.png"
+    "revision": "43e33a65c8c02be2ca9db691ecc57279",
+    "url": "/static/media/audioG.43e33a65.jpg"
   },
   {
-    "revision": "210dbf0cbf795928e6b6",
+    "revision": "59ac0fde43a277ecbb83",
     "url": "/static/css/main.4244d92f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "c01e8c96d967bf8ebb34",
-    "url": "/static/js/2.5aa850e1.chunk.js"
+    "revision": "620ffc8e7016859f78fa",
+    "url": "/static/js/2.e74b14d4.chunk.js"
   },
   {
     "revision": "39765ff388e51841878e60cc12ac8e4a",
@@ -108,8 +108,8 @@ self.__precacheManifest = [
     "url": "/static/media/p1.6f9641b2.png"
   },
   {
-    "revision": "210dbf0cbf795928e6b6",
-    "url": "/static/js/main.22ac9d1a.chunk.js"
+    "revision": "ae3b7df1a9e222743dd9d56380b1495c",
+    "url": "/static/media/designP.ae3b7df1.png"
   },
   {
     "revision": "5b0c3fc565d047b4900aa5c024fa79cd",
@@ -120,8 +120,8 @@ self.__precacheManifest = [
     "url": "/static/media/dd.632d7503.png"
   },
   {
-    "revision": "43e33a65c8c02be2ca9db691ecc57279",
-    "url": "/static/media/audioG.43e33a65.jpg"
+    "revision": "59ac0fde43a277ecbb83",
+    "url": "/static/js/main.c7d11705.chunk.js"
   },
   {
     "revision": "7d9c18cb334ee3cb272d6436846215ed",
@@ -212,11 +212,31 @@ self.__precacheManifest = [
     "url": "/static/media/DanningLu2019.7e23be51.pdf"
   },
   {
+    "revision": "7dd34aa29b5a468fabe797e3a4307288",
+    "url": "/static/media/moveInspector.7dd34aa2.mp4"
+  },
+  {
+    "revision": "208261f14aa23abba100fb7b3d922a14",
+    "url": "/static/media/arFlow.208261f1.mp4"
+  },
+  {
+    "revision": "c8112f82dffd0d08989d04d42ba98e2b",
+    "url": "/static/media/animation.c8112f82.mp4"
+  },
+  {
+    "revision": "106ef7b76df161c48fa836a61fd3332c",
+    "url": "/static/media/height.106ef7b7.mp4"
+  },
+  {
+    "revision": "606fbe3ef7fe4ef023ddaae1d69b2170",
+    "url": "/static/media/saveicon.606fbe3e.mp4"
+  },
+  {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "4545c86df66a131c6e5e1b97bc6e2f30",
+    "revision": "ff3015a5974cb1f1517a20e9bbb198ec",
     "url": "/index.html"
   }
 ];
