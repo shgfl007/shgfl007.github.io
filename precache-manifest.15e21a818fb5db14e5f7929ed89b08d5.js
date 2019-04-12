@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/audioG.43e33a65.jpg"
   },
   {
-    "revision": "aee6fae711a82bd6ecdf",
+    "revision": "968792647cf6cee0371b",
     "url": "/static/css/main.769fb0f4.chunk.css"
   },
   {
@@ -120,8 +120,8 @@ self.__precacheManifest = [
     "url": "/static/media/dd.632d7503.png"
   },
   {
-    "revision": "aee6fae711a82bd6ecdf",
-    "url": "/static/js/main.6be21c23.chunk.js"
+    "revision": "968792647cf6cee0371b",
+    "url": "/static/js/main.6ee01334.chunk.js"
   },
   {
     "revision": "7d9c18cb334ee3cb272d6436846215ed",
@@ -236,7 +236,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "8d171596ee0ad366f644c259a1ec992c",
+    "revision": "0f89ddbaeb519550ea7b1ce27a1b8a61",
     "url": "/index.html"
   }
 ];
