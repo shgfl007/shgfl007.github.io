@@ -26,6 +26,7 @@ export default class Main extends Component {
         <Route path='/projects/break-a-leg' component={bkaleg} />
         <Route path='/projects/foguang-temple' component={foguang} />
         <Route path='/projects/animation' component={Animation} />
+        <Route path='/projects/geogram' component={Geogram} />
       </Switch>
     </div>
   </main>)
