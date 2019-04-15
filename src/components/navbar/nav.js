@@ -6,8 +6,6 @@ export default class Nav extends Component {
   constructor () {
     super()
     this.state = {
-      menuOpen: false,
-      solutionsOpen: false,
       verticalPosition: 'top'
     }
     this.onScroll = this.onScroll.bind(this)

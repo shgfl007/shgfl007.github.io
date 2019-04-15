@@ -33,8 +33,8 @@ export default class Geogram extends Component {
 
               <h2>Team and Roles</h2>
               <hr/>
-              <p className='fist-section-par list-title'>In this project I worked as the product designer.
-                 My overall work for this project can be summarized as:</p>
+              <p className='fist-section-par list-title'>In this project, I worked as a product
+                designer. My overall work for this project can be summarized as:</p>
               <ul>
                 <li>Create the user flow of Geogram</li>
                 <li>User Research (early adopters)</li>
@@ -81,8 +81,10 @@ export default class Geogram extends Component {
           <div className='project-image'>
             <iframe width="744" height="315" src="https://www.youtube.com/embed/LvEloKUb75g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <p>The app was successfully delivered before the memorial event of the Pulse Shooting anniversary. People used the app to leave their videos at the location and they could also view other's story after the
-          the tragedy. Checkout the link here: <a href='https://www.orlandosentinel.com/news/pulse-orlando-nightclub-shooting/os-pulse-memorial-mural-augmented-reality-20170611-story.html' target='_blank'>Orlando News</a></p>
+          <p>The app was successfully delivered before the memorial event of the
+            Pulse Shooting anniversary. People used the app to leave their videos
+            at the location and they could also view other's story after the tragedy.
+            Check out the link here: <a href='https://www.orlandosentinel.com/news/pulse-orlando-nightclub-shooting/os-pulse-memorial-mural-augmented-reality-20170611-story.html' target='_blank'>Orlando News</a></p>
         <p>Geogram is still creating exciting AR experiences for customers. Checkout Geogram's website <a href='https://www.geogram.xyz/home' target='_blank'>www.geogram.xyz</a></p>
         <h2>Reflection</h2>
           <p className='first-section-par'>What I could have done and what I can do better.</p>

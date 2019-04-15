@@ -1,3 +1,50 @@
+.active{
+  border-bottom: 2px;
+  border-bottom-color: $delta;
+  border-style: none none solid none;
+  border-spacing: 10px;
+}
+
+.project-nav{
+  position: fixed;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  padding-top: 0;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: -58px;
+  background-color: white;
+  z-index: 99;
+  padding: 16px 0;
+
+  .item{
+    width:100px;
+  }
+
+}
+
+.project-nav-small{
+  position: fixed;
+  text-align: right;
+  transition: all 0.4s ease-in-out;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: -88px;
+  background-color: white;
+  z-index: 99;
+  padding: 8px 0;
+
+  .item{
+    width:80px;
+    //padding:0px 15px;
+    padding-right: 15px;
+    font-size: 14px;
+  }
+
+}
+
 .project-header-section{
   margin-top: 40px;
   max-width: 1000px;
@@ -136,7 +183,7 @@
   margin:auto;
 
   .slide-dots {
-    bottom: -16px; 
+    bottom: -16px;
     width: 100%;
     margin: 0;
     list-style: none;
@@ -225,6 +272,6 @@ li{
     height: 120px;
   }
 
-  //--------- slider dot ----------------------------------------------
+  //--------- project Nav ----------------------------------------------
 
 }

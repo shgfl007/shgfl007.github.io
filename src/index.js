@@ -9,7 +9,7 @@ import ScrollToTop from './Helper/ScrollToTop'
 const history = createBrowserHistory()
 
 ReactDOM.render(
-  (<HashRouter history={history} onUpdate={() => window.scrollTo(0, 0)}>
+  (<HashRouter onUpdate={() => window.scrollTo(0, 0)}>
     <ScrollToTop>
       <App />
     </ScrollToTop>

@@ -26,15 +26,15 @@ export default class Persona extends Component {
   }
 
   getSolutions(sol){
-    return sol.map((solution)=><li>{solution}</li>)
+    return sol.map((solution,idx)=><li key={idx}>{solution}</li>)
   }
 
   getNeeds(needs){
-    return needs.map((need)=><li>{need}</li>)
+    return needs.map((need, idx)=><li key={idx}>{need}</li>)
   }
 
   getStatue(statues){
-    return statues.map((s)=><li>{s}</li>)
+    return statues.map((s,idx)=><li key={idx}>{s}</li>)
   }
 
   render(){
