@@ -21,20 +21,24 @@ export default class Briovr extends Component {
         <div className='project-section'>
           <h2>The Project</h2>
           <hr/>
-          <p className='first-section-par'>BRIOVR is an online platform for people with less 3d experiences and no coding experiences to create a quick and short 3D interactive experience. We found that it’s hard to tell where the object is when editing in 3D space in a 2D window. This project was to help users visualize where they are moving/placing objects while editing in BRIOVR builder.</p>
+          <p className='first-section-par'>BRIOVR is an online platform for people with less 3d experiences and no coding experiences to create a quick and short 3D interactive experience. This section includes all my work on the different iterations we had on the landing page.</p>
         </div>
 
         <div className='project-section'>
           <h2>Team and Roles</h2>
           <hr/>
-          <p className='list-title first-section-par'>For this project, I’m working as a UI/UX designer. I was working with a developer to build this feature for BRIOVR. My work can be summarized as:
+          <p className='list-title first-section-par'>For this project, I’m working as a UI/UX designer. My work can be summarized as:
           </p>
           <ul>
-            <li>Define challenges</li>
-            <li>User research</li>
-            <li>Wireframe, prototype</li>
+            <li>Wireframe, mockup</li>
             <li>User Test</li>
           </ul>
+        </div>
+
+        <div className='project-section'>
+          <h2>Underconstruction</h2>
+          <hr/>
+
         </div>
 
 
