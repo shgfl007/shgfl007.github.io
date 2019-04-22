@@ -30,18 +30,20 @@
 
   .description {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
-    color: $alpha;
+    color: $black;
     margin: 0;
   }
   // if you put some links in your bio. ;)
   a {
-    font-weight: 200;
+    font-weight: 400;
   }
 
   .summary{
     text-align: left;
+    color: $black;
+    font-weight: normal;
   }
 }
 

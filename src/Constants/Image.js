@@ -53,6 +53,10 @@ import gameRB5 from '../assets/projects/game/ruleB5.jpg'
 import gameRB6 from '../assets/projects/game/ruleB6.jpg'
 import gameRB7 from '../assets/projects/game/ruleB7.jpg'
 
+import pinchBKG from '../assets/projects/pinch/pinchBKG.png'
+
+import briolandingBKG from '../assets/projects/briolanding/bkg.png'
+
 import profile from '../assets/img/profile_new.png'
 import resume from '../assets/resume/DanningLu2019.pdf'
 
@@ -78,5 +82,7 @@ export {
   geoS,geoflow,geomock,geocover,
   gamePrep,gamerule,gameRA1, gameRA2,gameRA3,gameRA4,gameRA5,
   gameRB1,gameRB2,gameRB3,gameRB4,gameRB5,gameRB6,gameRB7,
+  pinchBKG,
+  briolandingBKG,
   profile, resume
 }

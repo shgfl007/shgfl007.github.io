@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {ftBKG} from '../../../Constants/Image'
+import {pinchBKG} from '../../../Constants/Image'
 
 
 export default class FairTrade extends Component {
@@ -8,51 +8,50 @@ export default class FairTrade extends Component {
     return (
       <div>
         <div className='header-home animated project-header-section' >
-            <h1 className='title'>From Soul Food to Fair Trade</h1>
+            <h1 className='title'>Pinch Discovery App & VR Collaborate Space</h1>
             <hr/>
-            <h3>FairTrade</h3>
-            <p>Bridging the disconnection between newcomers and kind hearted locals</p>
+            <h3>PinchVR</h3>
+
           </div>
           <div className='project-content animated'>
-            <p>This project is focusing on bridging the disconnection between
-            newcomers/refugees that are in need of help and kind hearted people
-            who wants to help by donating clothing and other supplies.
-            The project started as a platform to help newcomer’s families to
-            earn some extra money by selling their home made food.
-            We found that many people are using social media to sell
-            their home made food. But when we dig deeper into market research,
-            we found that there has already been platforms that are doing
-            the same thing. So pivoted from Soul Food to Fair Trade. </p>
+            <div className='project-section'>
+              <h2>Pinch Discovery</h2>
+              <div className='project-image'><img src={pinchBKG}/></div>
+            <p>The Pinch Discovery app is an application that ships with the headset and the controller.
+            The propose for the app was to showcase the possibilities of the controllers and the SDK.</p>
 
-              <h3>Team and Roles</h3>
-              <p>In this project I worked as a UX designer collaboration
-              with another UI/UX designer and later on I used Unity to build
-              a working prototype in Angel Hack 2018 Toronto. After winning
-              the hackathon, I continued working on Fair Trade to shape the
-              branding and user experience. </p>
+              <h3 className='section-title'>Team and Roles</h3>
+              <p className='first-section-par'>I worked as a Unity developer. I created the Space Planner part of the app and later cleaned up and
+              updated the app based on new SDK. I deployed 2 versions of the app: iOS and Android. And I shipped both
+              version tp iTunes and Google Play Store.</p>
+            <p>Other than creating and updating the app, I also prepared materials for marketing and demo purpose.</p>
 
-              <div className='section-block'>
-                <h3>Challenge</h3>
-                <p>The challenge for this project was to discover what we can
-                create to bridge the gap between new comers and locals to help
-                 them adapt and </p>
+
+                <h3 className='section-title'>The Product</h3>
+                <div className='project-image'>
+                  <iframe src="https://player.vimeo.com/video/205704938" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </div>
+                <p className='first-section-par'>The app can be found in iTunes: <a href='https://itunes.apple.com/bn/app/pinch-discovery/id1205542053?mt=8'
+                  target='_blank'>Pinch Discovery</a></p>
+              </div>
+
+              <div className='project-section'>
+                <h2>Pinch VR Collaborate Space</h2>
+                <p>The Pinch VR Collaborate Space was a prototype to prove the concept of using the Pinch controllers to Collaborate with
+                others in VR space.</p>
+
+                <h3 className='section-title'>Team and Roles</h3>
+                <p className='first-section-par'>I worked as a Unity developer. I used the Pinch SDK, Unity Network API and Facebook API to create the prototype. </p>
+
+                <h3 className='section-title'>The Product</h3>
+                <div className='project-image'>
+                  <iframe width="800" height="450" src="https://www.youtube.com/embed/LqG8WDKqBhA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p className='first-section-par'>The prototype was successfully made and was planned to be the next project after the Discovery app.</p>
               </div>
 
 
 
-            <h3>Discovery</h3>
-            <p></p>
-
-            <h3>Prototyping and tests</h3>
-            <p></p>
-            <p>
-            </p>
-            
-
-            <h3>Detailed Design</h3>
-
-
-            <h3>Takeaways</h3>
 
           </div>
     </div>

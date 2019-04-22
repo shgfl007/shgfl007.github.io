@@ -1,4 +1,4 @@
-import {brioBKG, ftBKG, gameBKG, foguangBKG,geocover} from './Image'
+import {brioBKG, ftBKG, gameBKG, foguangBKG,geocover,pinchBKG,briolandingBKG} from './Image'
 export const ProjectList = [
   {title: 'Placement Indicator', category:'Case Study, UX Design', app:'BRIOVR',
     caption:'Solve the problem of placing objects in 3D space using 2D editor',
@@ -7,8 +7,6 @@ export const ProjectList = [
   {title: 'From Soul Food to Fair Trade', category:'Case Study, UX Design', app:'FairTrade',
     caption:'Bridging the disconnection between newcomers and kind hearted locals',
     img: ftBKG, link:'/fairtrade'},
-
-
 
   {title: 'Foguang Temple Touring Guide', category:'Case Study, UX Design, Development', app:'Foguang Temple',
     caption:'Telling the story behind the temple with a thunsand year history and the visitors',
@@ -24,7 +22,15 @@ export const ProjectList = [
 
   {title: 'Add Characteristics to Elements', category:'Interaction Design, Animation, Other', app:'BRIOVR',
         caption:'A bit of animation brings delight and life to apps',
-        img: brioBKG, link:'/animation'}
+        img: brioBKG, link:'/animation'},
+
+  {title: 'Pinch Discovery & VR Collaborate Space', category:'Coding, Development, Unity, Other', app:'PinchVR',
+        caption:'A bit of animation brings delight and life to apps',
+        img: pinchBKG, link:'/pinchvr'},
+
+  {title: 'Iterations of the BRIOVR Landing Page', category:'Design, Development, Other', app:'BRIOVR',
+        caption:'A bit of animation brings delight and life to apps',
+        img: briolandingBKG, link:'/briolanding'}
 
 
 ]

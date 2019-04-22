@@ -7,6 +7,8 @@ import bkaleg from './details/breakaleg'
 import foguang from './details/foguang'
 import Geogram from './details/geogram'
 import Animation from './details/animation'
+import Pinch from './details/pinchvr'
+import Briolanding from './details/BrioLanding'
 
 
 export default class ProjectList extends Component {
@@ -21,6 +23,9 @@ export default class ProjectList extends Component {
     <Route path='/projects/foguang-temple' component={foguang} />
     <Route path='/projects/animation' component={Animation} />
     <Route path='/projects/geogram' component={Geogram} />
+    <Route path='/projects/pinchvr' component={Pinch} />
+    <Route path='/projects/briolanding' component={Briolanding} />
+
     </Switch>
     </main>)
   }
