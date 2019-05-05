@@ -9,6 +9,7 @@ import Geogram from './details/geogram'
 import Animation from './details/animation'
 import Pinch from './details/pinchvr'
 import Briolanding from './details/BrioLanding'
+import UI from './details/2DProjects'
 
 
 export default class ProjectList extends Component {
@@ -24,7 +25,8 @@ export default class ProjectList extends Component {
     <Route path='/projects/animation' component={Animation} />
     <Route path='/projects/geogram' component={Geogram} />
     <Route path='/projects/pinchvr' component={Pinch} />
-    <Route path='/projects/briolanding' component={Briolanding} />
+    <Route path='/projects/briopricing' component={Briolanding} />
+    <Route path='/projects/2d' component={UI} />
 
     </Switch>
     </main>)

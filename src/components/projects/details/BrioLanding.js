@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-  briolandingBKG
+  briopricingBKG
 } from '../../../Constants/Image'
 
 
@@ -10,11 +10,11 @@ export default class Briovr extends Component {
   render() {
     return (<div>
       <div className='project-content header-home animated project-header-section'>
-        <h1 className='title'>Iterations of the BRIOVR Landing Page</h1>
+        <h1 className='title'>Iterations of the BRIOVR Pricing Page</h1>
         <hr/>
         <h2>BRIOVR</h2>
         <div className='hero-img' style={{
-            backgroundImage: `url(${briolandingBKG})`
+            backgroundImage: `url(${briopricingBKG})`
           }}></div>
       </div>
       <div className='project-content animated'>

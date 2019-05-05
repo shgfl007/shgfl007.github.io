@@ -46,9 +46,15 @@ export default class Projects extends Component {
     const profile = '../assets/img/profile_new.png';
     return (
       <div className='header-home animated'>
+        <h2 className='title'>Case Studies</h2>
           <div className='project-cards'>
             {this.getProjects(this.getCS())}
           </div>
+
+          <h2 className='title'>Other Projects</h2>
+            <div className='project-cards'>
+              {this.getProjects(this.getOther())}
+            </div>
 
       </div>
     );

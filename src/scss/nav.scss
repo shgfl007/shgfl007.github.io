@@ -60,3 +60,24 @@
     }
   }
 }
+
+.footer{
+  max-width: 1000px;
+  margin: auto;
+  text-align: left;
+
+  @include largeS{
+    max-width: 744px;
+  }
+
+  @include mediumS{
+    max-width: 368px;
+  }
+  @include small{
+    max-width: calc(100vw-16px);
+  }
+
+  .social{
+    padding: 0 8px;
+  }
+}

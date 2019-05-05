@@ -1,4 +1,4 @@
-import {brioBKG, ftBKG, gameBKG, foguangBKG,geocover,pinchBKG,briolandingBKG} from './Image'
+import {brioBKG, ftBKG, gameBKG, foguangBKG,geocover,pinchBKG,briolandingBKG,briopricingBKG} from './Image'
 export const ProjectList = [
   {title: 'Placement Indicator', category:'Case Study, UX Design', app:'BRIOVR',
     caption:'Solve the problem of placing objects in 3D space using 2D editor',
@@ -28,9 +28,13 @@ export const ProjectList = [
         caption:'A bit of animation brings delight and life to apps',
         img: pinchBKG, link:'/pinchvr'},
 
-  {title: 'Iterations of the BRIOVR Landing Page', category:'Design, Development, Other', app:'BRIOVR',
+  {title: 'Iterations of the BRIOVR Pricing Page', category:'Design, Development, Other', app:'BRIOVR',
         caption:'A bit of animation brings delight and life to apps',
-        img: briolandingBKG, link:'/briolanding'}
+        img: briopricingBKG, link:'/briopricing'},
+
+  {title: '2D Projects', category:'Design, Animation, Other', app:'Multiple',
+        caption:'A bit of animation brings delight and life to apps',
+        img: briolandingBKG, link:'/2d'}
 
 
 ]

@@ -10,13 +10,12 @@ export default class Header extends Component {
 
           <div className=''>
 
-            <h2 className="title-main-header">Hi, I'm Danning Lu. <br/>An interaction designer based in Toronto, Canada.</h2>
+            <h2 className="title-main-header">Hi, I'm Danning Lu. <br/>A product designer based in Toronto, Canada.</h2>
               <p className='summary'>With a background in programming and entrepreneurship, my strength lies in research & rapid prototyping for web & mobile apps. During my career, I had the privilege to work with companies that are challenging the new territory of AR and VR. </p>
 
           </div>
 
           <div>
-            <h2>Case Studies</h2>
             <Projects />
           </div>
       </div>
