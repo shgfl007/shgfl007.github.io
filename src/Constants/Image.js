@@ -56,7 +56,8 @@ import gameRB7 from '../assets/projects/game/ruleB7.jpg'
 import pinchBKG from '../assets/projects/pinch/pinchBKG.png'
 
 import briolandingBKG from '../assets/projects/briolanding/newlanding.png'
-import briopricingBKG from '../assets/projects/briolanding/pricing.png'
+import briopricingBKG from '../assets/projects/briolanding/pricingbkg.png'
+import briopricingBKG1 from '../assets/projects/briolanding/pricing.png'
 
 import profile from '../assets/img/profile_new.png'
 import resume from '../assets/resume/DanningLu2019.pdf'
@@ -84,6 +85,6 @@ export {
   gamePrep,gamerule,gameRA1, gameRA2,gameRA3,gameRA4,gameRA5,
   gameRB1,gameRB2,gameRB3,gameRB4,gameRB5,gameRB6,gameRB7,
   pinchBKG,
-  briolandingBKG,briopricingBKG,
+  briolandingBKG,briopricingBKG,briopricingBKG1,
   profile, resume
 }

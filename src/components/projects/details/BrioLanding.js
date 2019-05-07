@@ -3,6 +3,11 @@ import {
   briopricingBKG
 } from '../../../Constants/Image'
 
+import {
+  pricing1, pricing2, pricing3
+} from '../../../Constants/Video'
+
+
 
 
 export default class Briovr extends Component {
@@ -36,8 +41,39 @@ export default class Briovr extends Component {
         </div>
 
         <div className='project-section'>
-          <h2>Underconstruction</h2>
+          <h2>First Version</h2>
           <hr/>
+          <div className='project-image'>
+            <video src={pricing1} muted loop autoPlay playsInline />
+          </div>
+
+          <p className='first-section-par'>The first iteration has 2 versions. One is for users that are not logged in. They will see the version
+          which lists all the plans and has features underneath the plan name. The other one is for users that have a Brio account already. They will
+          see their space usage with all the plans. This idea was to show how much they have used and thus encourage them to pickup a plan.</p>
+
+        </div>
+
+        <div className='project-section'>
+          <h2>Second Version</h2>
+          <hr/>
+          <div className='project-image'>
+            <video src={pricing2} muted loop autoPlay playsInline />
+          </div>
+
+          <p className='first-section-par'>The second version aimed for a cleaner look. This used only cards with plans and its details listed below
+          the name of the plan. Since we were thinking about providing service work as well, I added a section where people can choose to have an add-on.</p>
+
+        </div>
+
+        <div className='project-section'>
+          <h2>Third Version</h2>
+          <hr/>
+          <div className='project-image'>
+            <video src={pricing3} muted loop autoPlay playsInline />
+          </div>
+
+          <p className='first-section-par'>The third version is the current version that is on the Brio site. The full version can be viewed on
+          <a href='https://briovr.com/pricing' target='_blank'> the Brio pricing page</a>.</p>
 
         </div>
 

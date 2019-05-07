@@ -7,9 +7,13 @@ import save from '../assets/projects/animation/saveicon.mp4'
 import landing1 from '../assets/projects/2d/LandingV1.mp4'
 import landing2 from '../assets/projects/2d/LandingV2.mp4'
 
+import pricing1 from '../assets/projects/briolanding/pricingV1Full.mp4'
+import pricing2 from '../assets/projects/briolanding/pricingV2.mp4'
+import pricing3 from '../assets/projects/briolanding/pricingV3.mp4'
+
 import gift1 from '../assets/projects/2d/d1.mp4'
 import gift2 from '../assets/projects/2d/d2.mp4'
 import gift3 from '../assets/projects/2d/d3.mp4'
 
-export {moveind, arFlow, arFlow2, height,save, landing1, landing2,
+export {moveind, arFlow, arFlow2, height,save, landing1, landing2,pricing1,pricing2,pricing3,
 gift1, gift2, gift3}
